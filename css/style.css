@@ -36,7 +36,7 @@ img {
 	padding: 80px 0;
 }
 
-/* Стили для шапку и  */
+/* Стили для Header   */
 
 .header {
 	padding: 20px 0;
@@ -50,6 +50,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
 }
 
 .header__logo {
@@ -89,7 +90,6 @@ img {
 .header__link:hover {
 	color: #00c689;
 }
-
 
 .header__link::after {
 	position: absolute;
@@ -164,7 +164,9 @@ img {
 	line-height: 24px;
 }
 
-/* section services */
+
+/* Section Services */
+
 .section__services {
 	padding: 80px 0 0;
 }
@@ -245,8 +247,6 @@ img {
 }
 
 .card__body-description {
-	/* display: flex; */
-	/* flex-direction: column; */
 	margin-bottom: 20px;
 	font-size: 11px;
 }
@@ -258,7 +258,10 @@ img {
 	font-size: 12px;
 }
 
+
 /* Section Contacts */
+
+
 .contacts__block {
 	display: flex;
 	justify-content: space-between;
@@ -298,5 +301,76 @@ img {
 .contacts__icon {
 	width: 32px;
 	height: 32px;
+	box-shadow: 0 8px 70px rgba(11, 12, 30, 0.9);
+}
 
+.contacts__map {
+	box-shadow: 0 8px 70px rgba(11, 12, 30, 0.9);
+}
+
+/* Footer */
+.footer {
+	padding: 40px 0;
+	box-shadow: 0 8px 70px rgba(11, 12, 30, 0.9);
+}
+
+.footer__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__logo {
+	font-size: 22px;
+	font-weight: 700;
+	color: #fff;
+	display: flex;
+	align-items: center;
+}
+
+.footer__logo span {
+	color: #00c689;
+}
+
+.footer__menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+}
+
+.footer__item {
+	font-weight: 600;
+	margin-right: 20px;
+	color: #fff;
+}
+
+.footer__item:last-child {
+	margin-right: 0;
+}
+
+.footer__link {
+	color: #00c689;
+	transition: all 0.4s;
+	position: relative;
+}
+
+.footer__link:hover {
+	color: #fff;
+}
+
+.footer__link::after {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 0%;
+	height: 3px;
+	background-color: #fff;
+	margin-top: 4px;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.footer__link:hover:after {
+	width: 95%;
 }
