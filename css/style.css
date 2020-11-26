@@ -36,7 +36,7 @@ img {
 	padding: 80px 0;
 }
 
-/* Стили для шапку */
+/* Стили для шапку и  */
 
 .header {
 	padding: 20px 0;
@@ -102,6 +102,8 @@ img {
 }
 
 .btn {
+	text-align: center;
+	display: inline-block;
 	width: 170px;
 	height: 36px;
 	background-color: #00c689;
@@ -143,4 +145,87 @@ img {
 	font-size: 20px;
 	margin: 15px 0;
 	line-height: 24px;
+}
+
+/* section services */
+.services__block {
+	display: flex;
+	/* justify-content: space-between; */
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 40px 0;
+}
+
+.services__item {
+	flex-basis: 20%;
+	margin-bottom: 40px;
+}
+
+.services__icon {
+	width: 64px;
+	height: 64px;
+}
+
+
+/* section Rooms */
+
+.rooms__title {
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.card {
+	flex-basis: 28%;
+	min-height: 316px;
+	box-shadow: 0 8px 70px rgba(11, 12, 30, 0.9);
+	border-radius: 6px;
+	background-color: #201e47;
+	margin-bottom: 40px;
+}
+
+.card__img {
+	border-radius: 6px 6px 0 0;
+	overflow: hidden;
+}
+
+.card__body {
+	padding: 20px 25px 30px;
+}
+
+.card__prices {
+	display: flex;
+	align-items: center;
+}
+
+.card__price {
+	width: 32px;
+	height: 20px;
+}
+
+.card__body-title {
+	color: #8c88d7;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.card__body-description {
+	/* display: flex; */
+	/* flex-direction: column; */
+	margin-bottom: 20px;
+	font-size: 11px;
+}
+
+.card__btn {
+	width: 140px;
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
 }
