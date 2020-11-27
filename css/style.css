@@ -125,7 +125,8 @@ img {
 	font-weight: 600;
 }
 
-.btn__phone:hover {
+.btn__phone:hover,
+.content__btn:hover {
 	border: 1px solid #00c689;
 	background: inherit;
 	color: #00c689;
@@ -140,12 +141,18 @@ img {
 }
 
 .header__bottom {
+	flex-basis: 48%;
 	margin-top: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	flex-wrap: wrap;
 }
 
 .header__content {
-	max-width: 540px;
-	min-height: 500px;
+	flex-basis: 48%;
+	/* max-width: 540px; */
+	min-height: 300px;
 	padding: 30px;
 	background: rgba(0, 0, 0, 0.7);
 	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8);
@@ -160,10 +167,15 @@ img {
 
 .header__description {
 	font-size: 20px;
-	margin: 15px 0;
+	margin: 15px 0 30px;
 	line-height: 24px;
 }
 
+.form {
+	flex-basis: 48%;
+}
+
+.content__btn {}
 
 /* Section Services */
 
