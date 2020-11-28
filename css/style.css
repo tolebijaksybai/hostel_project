@@ -207,6 +207,24 @@ input:focus {
 	line-height: 36px;
 }
 
+.header__burger {
+	display: none;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+
+.burger__btn {
+	display: block;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	color: #fff;
+}
+
+.burger__btn:not(:last-child) {
+	margin-bottom: 4px;
+}
+
 /* Form Отправка данных */
 
 .form {
@@ -613,6 +631,15 @@ input:focus {
 		display: none;
 	}
 
+	.header__contacts {
+		margin-left: auto;
+	}
+
+	.header__burger {
+		margin-left: 26px;
+		display: block;
+	}
+
 	.header__bottom {
 		align-items: start;
 	}
@@ -625,7 +652,6 @@ input:focus {
 		flex-basis: 46%;
 	}
 
-
 	.header__title {
 		font-size: 38px;
 	}
@@ -637,8 +663,6 @@ input:focus {
 	.card {
 		flex-basis: 31.5%;
 	}
-
-
 
 	.contacts__link {
 		display: block;
@@ -739,6 +763,10 @@ input:focus {
 }
 
 @media (max-width: 576px) {
+	.header__phone {
+		display: none;
+	}
+
 	.footer {
 		padding: 40px 0 60px;
 	}
