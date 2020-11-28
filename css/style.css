@@ -780,7 +780,33 @@ input:focus {
 		margin: 0 auto;
 	}
 
+	.footer__menu {
+		flex-wrap: wrap;
+	}
+
 	.footer__nav {
 		flex-basis: 100%;
+	}
+}
+
+@media (max-width: 455px) {
+	.form {
+		max-width: 100%;
+	}
+
+	.services__item {
+		flex-basis: 40%;
+	}
+
+	.card {
+		flex-basis: 100%;
+	}
+
+	.footer__menu {
+		justify-content: space-around;
+	}
+
+	.footer__item {
+		margin: 0 20px 10px 0;
 	}
 }
