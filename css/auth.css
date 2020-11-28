@@ -107,6 +107,7 @@ form.sign-in-form {
 }
 
 .social-text {
+	color: #fff;
 	padding: 0.7rem 0;
 	font-size: 1rem;
 }
@@ -236,6 +237,11 @@ form.sign-in-form {
 .right-panel .image,
 .right-panel .content {
 	transform: translateX(800px);
+}
+
+.link-home {
+	font-weight: 600;
+	color: #2a3270;
 }
 
 /* ANIMATION */

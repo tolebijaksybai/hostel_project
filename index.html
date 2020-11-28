@@ -24,6 +24,7 @@
 		<!-- Header -->
 
 		<header id="header" class="header">
+			<div class="header__overlay"></div>
 			<div class="container">
 				<div class="header__inner">
 					<div class="header__top">
@@ -49,25 +50,37 @@
 
 					<div class="header__bottom">
 						<div class="header__content">
-							<h2 class="header__title">Гостиничный комплекс <br /> Hotel Medina</h2>
+							<h2 class="header__title"> Гостиница <span>Medina</span></h2>
 							<p class="header__description">
-								Отличный сервис по доступной цене <br />
-								<span>номера от 9000 тенге</span>
+								Отличный сервис по доступной цене
+								НОМЕРА ОТ 9000 ТЕНГЕ
 							</p>
 
-							<a href="#" class="btn content__btn">Подробнее</a>
+							<a href="./booking.html" class="btn content__btn">Подробнее</a>
 						</div>
 
 						<!-- Формы для отправки данные на бронированию месту -->
 
-						<form class="form">
+						<form class="form" action="#">
 							<p class="form__title">
 								Бронирование номеров
 							</p>
-							<input type="name" class="input" placeholder="Введите имя">
-							<input type="email" class="input" placeholder="Введите E-mail">
-							<input type="tel" class="input" placeholder="Введите номер телефона">
-							<input type="text">
+							<label class="label__title">Введите имя</label>
+							<input type="name" class="input" placeholder="Имя" required>
+
+							<label class="label__title">Введите Заезд</label>
+							<input type="tel" class="input" placeholder="Введите номер телефона" required>
+
+							<label class="label__title">Дата Заезд</label>
+							<input type="date" class="input">
+
+							<label class="label__title">Дата Выезд</label>
+							<input type="date" class="input">
+
+							<label class="label__title">Введите количества комнаты</label>
+							<input type="number" class="input">
+
+							<button type="submit" class="btn btn__rooms">Найти номер</button>
 						</form>
 
 					</div>
