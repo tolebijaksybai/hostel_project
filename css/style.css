@@ -785,6 +785,10 @@ input:focus {
 	.footer__nav {
 		flex-basis: 100%;
 	}
+
+	.card:hover {
+		transform: scale(1);
+	}
 }
 
 @media (max-width: 455px) {
