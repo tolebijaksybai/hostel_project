@@ -142,7 +142,7 @@ form.sign-in-form {
 	background-color: #00c689;
 	border: none;
 	outline: none;
-	height: 49px;
+	height: 39px;
 	border-radius: 49px;
 	color: #fff;
 	text-transform: uppercase;
@@ -221,7 +221,7 @@ form.sign-in-form {
 
 .panel p {
 	font-size: 0.95rem;
-	padding: 0.7rem 0;
+	padding: 1.2rem 0;
 }
 
 .btn.transparent {
@@ -229,7 +229,7 @@ form.sign-in-form {
 	background: none;
 	border: 2px solid #fff;
 	width: 130px;
-	height: 41px;
+	height: 38px;
 	font-weight: 600;
 	font-size: 0.8rem;
 }
