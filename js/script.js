@@ -1,6 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
-	
-	// Код для создания слайдера из Галлерия
+
+	// Скрипт для бургер меню из внутри Header
+
+	const headerNav = document.querySelector('.header__nav'),
+		burgerBtn = document.querySelector('.header__burger');
+
+	burgerBtn.addEventListener('click', function () {
+		headerNav.classList.toggle('header__nav_active');
+		
+	});
+	// burgerBtn.addEventListener('click', function () {
+	// 	headerNav.classList.remove('header__nav_active');
+	// });
+
+
+
+
+
+
+	// Скрипт для создания слайдера из Галлерия
+
 	const prev = document.getElementById('btn-prev'),
 		next = document.getElementById('btn-next'),
 		slides = document.querySelectorAll('.slide'),
