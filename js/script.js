@@ -7,16 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 	burgerBtn.addEventListener('click', function () {
 		headerNav.classList.toggle('header__nav_active');
-		
 	});
-	// burgerBtn.addEventListener('click', function () {
-	// 	headerNav.classList.remove('header__nav_active');
-	// });
-
-
-
-
-
 
 	// Скрипт для создания слайдера из Галлерия
 

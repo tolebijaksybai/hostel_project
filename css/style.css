@@ -106,8 +106,6 @@ input:focus {
 	list-style: none;
 }
 
-
-
 .header__item {
 	font-weight: 600;
 	margin-right: 20px;
@@ -622,9 +620,6 @@ input:focus {
 	.header__description {
 		font-size: 22px;
 	}
-
-
-
 }
 
 @media (max-width: 992px) {
@@ -635,7 +630,7 @@ input:focus {
 	.header__nav_active {
 		position: absolute;
 		top: -20px;
-		bottom: 0;
+		bottom: 50%;
 		left: -20px;
 		right: 15%;
 		background-color: rgba(0, 0, 0, 0.9);
@@ -651,7 +646,7 @@ input:focus {
 		justify-content: flex-start;
 		align-items: flex-start;
 		width: 100%;
-		padding-top: 50px;
+		padding-top: 60px;
 	}
 
 	.header__nav_active .header__menu .header__item {
@@ -861,10 +856,6 @@ input:focus {
 	.header__description {
 		font-size: 19px;
 		line-height: 22px;
-	}
-
-	.header__contacts {
-		display: none;
 	}
 
 	.form {
