@@ -1,6 +1,6 @@
 ### Medina Hostel_project
-<h4 align="left">Cсылка на Сайт: <a href="https://tolebijaksybai.github.io/hostel_project/" target="_blank">Medina hostel</a></h4>
-<h4 align="left">Срок: 3 дня</h4>
+<p align="left">Cсылка на Сайт: <a href="https://tolebijaksybai.github.io/hostel_project/" target="_blank">Medina hostel</a></p>
+<p align="left">Срок: 3 дня</p>
 <h4 align="left">Верстал все сайт, придумал дизайн сайта сам!</h4>
 <h4 align="left">Написано на чистом: <b>HTML5, CSS3, JavaScript</b></h4>
 
